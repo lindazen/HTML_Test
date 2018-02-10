@@ -1,0 +1,16 @@
+
+public class Test{
+Test(){
+    WebDriver driver;
+}
+String dynamicText = "//*[@class='']"//[];
+String levelLaterDynamicText = "//*[contains(@id,'transaction')]";
+String dynamicTextCss = div[class*=''];
+String levelLaterDynamicText = []
+
+    public void test(){
+        driver.findElement(By.xpath(dynamicText));
+   }
+String dynamicTableRowVal = "//table[@class='tsc_table_s13']//tbody"
+
+}

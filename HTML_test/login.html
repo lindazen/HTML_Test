@@ -1,28 +1,31 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+   
 <head>
-This form provides a login(heading), username(label), username textbox, password(label), password textbook, and login button
+    <link rel="stylesheet" href="style.css">
+     <title>
+         Sign In
+    </title>
 </head>
 
 <body>
+    <div class="heading">
+        <img src="/resources/avatar.png" class="login-image"/>
+        <h1>Login</h1>
+    </div> 
+    <div class="field">
+        <div class="username">
+            <label class="label-tag" name:"username">Username:</label>
 
-<br /><br />
+            <input type="text" name="userID" id="user" aria-label="username"/> <br/>
+        </div>
+        <div class="password">
+            <label class="label-tag">Password:</label>
 
-     Login
-     <label>UserID</label>
-
-     <input type="text" name="userID" id="userid" /><br />
-      
-
-     <label>PasswordID</label>
-
-     <input type="password" name="passwordID" id="passwordid" onmouseover="return reload2()" /><br />
-
-
-     <input type="submit" name="myform" value="Login" />
-
+            <input type="password" name="passwordID" id="password" aria-label="password" onmouseover="return reload2()"/> <br/>
+        </div>
+        <button type="submit" name="myform" value="Login" class="field login-button" align="center" aria-label="submit button">Sign In</button>
+    </div>
  </body>
 </html>
-
-     
-
 
